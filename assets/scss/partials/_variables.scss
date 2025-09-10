@@ -2,25 +2,38 @@
 // conatiners
 $sm:540px;
 $md:720px;
-$lg:1100px;
-$xl:1660px;
-$xxl:1760px;
+$lg:960px;
+$xl:1140px;
+$xxl:1340px;
+$xxxl:1660px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl:1700px
+) ;
 
 $container-max-widths: (
   sm: $sm,
   md: $md,
   lg: $lg,
   xl: $xl,
-  xxl: $xxl
+  xxl: $xxl,
+  xxxl:$xxxl
 );
 
 // font-size
+$h1-font-size:54px;
 
 $h2-font-size: 40px;
 $h5-font-size:20px; 
 // $h3-font-size:60px;
 
-// $line-height-lg:32px;
+$line-height-lg:1.8;
 
 // nav
 $navbar-light-color:white;
