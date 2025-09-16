@@ -9,6 +9,7 @@
 
 
 
+
 .explore-coures {
     background-color: #ddfce7;
 
@@ -97,6 +98,11 @@
 
 
 
+
+}
+.card-text {
+    white-space:normal;
+    word-wrap: break-word;
 }
 
 
@@ -152,39 +158,3 @@
 
 
 
-@media (max-width:992px) {
-    .explore-coures {
-
-        .hover-btn {
-            width: 60px;
-            &:hover{
-                width: 300px;
-            }
-        }
-
-        .hover-btn-1 {
-            width: 40px;
-        }
-
-        .hover-btn-3 {
-            width: 20px;
-        }
-        .none{
-            width: 300px;
-            h6{
-              font-size: 10px;
-            }
-            p{
-                font-size:5px;
-            }
-            img{
-                width: 60px;
-            }
-            .btn{
-                font-size: 10px;
-
-            }
-        }
-    }
-
-}
